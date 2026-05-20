@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Feedback - BluePrint Contractors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="custom-container d-flex justify-content-between align-items-center w-100">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/Screenshot%202026-04-14%20010000.png" alt="BluePrint Contractors logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOMEPAGE</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="discoverDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">DISCOVER</a>
+                        <ul class="dropdown-menu" aria-labelledby="discoverDropdown">
+                            <li><a class="dropdown-item" href="about.html">ABOUT US</a></li>
+                            <li><a class="dropdown-item" href="team.html">MEET OUR TEAM</a></li>
+                            <li><a class="dropdown-item" href="mission.html">MISSION AND VISION</a></li>
+                            <li><a class="dropdown-item" href="careers.html">CAREERS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">OUR SERVICES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">PORTFOLIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="feedback.html">FEEDBACK</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero hero-turnkey-bg">
+        <div class="custom-container hero-content">
+            <h1>Client Feedback</h1>
+            <p>Your opinions help us shape our processes, elevate our craftsmanship, and maintain high standards.</p>
+        </div>
+    </header>
+
+    <!-- Feedback & Testimonials Split -->
+    <section class="section">
+        <div class="custom-container">
+            <div class="split-layout">
+                <!-- Testimonials Column -->
+                <div class="split-col">
+                    <h2>What Our Clients Say</h2>
+                    <p class="margin-y-15-30">We take great pride in our relationships with developers, homeowners, and public institutions. Here is some of their feedback:</p>
+                    
+                    <div class="card testimonial-card">
+                        <p class="testimonial-text">"BluePrint Contractors handled our office park expansion with extreme diligence. They finished the concrete pours on schedule and stayed within our strict budget limit."</p>
+                        <div class="testimonial-author">-Prince Mmpatane</div>
+                    </div>
+
+                    <div class="card testimonial-card-no-margin">
+                        <p class="testimonial-text">"We are in love with our new custom family home. Elena's architectural layout is beautiful and Sipho's site crew made the process entirely stress-free."</p>
+                        <div class="testimonial-author">-Botlhe Modisenyane</div>
+                    </div>
+                </div>
+
+                <!-- Form Column -->
+                <div class="split-col form-card">
+                    <h3 class="form-card-title">Share Your Experience</h3>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label class="form-label" for="feed-name">Full Name</label>
+                            <input type="text" id="feed-name" class="form-control" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="feed-project">Project Type Worked On</label>
+                            <select id="feed-project" class="form-control">
+                                <option>Residential Construction</option>
+                                <option>Commercial Development</option>
+                                <option>Turnkey Operations</option>
+                                <option>Other Contracting</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="feed-rating">Overall Rating</label>
+                            <select id="feed-rating" class="form-control">
+                                <option>⭐⭐⭐⭐⭐ (Excellent)</option>
+                                <option>⭐⭐⭐⭐ (Very Good)</option>
+                                <option>⭐⭐⭐ (Good)</option>
+                                <option>⭐⭐ (Fair)</option>
+                                <option>⭐ (Poor)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="feed-message">Feedback Comments</label>
+                            <textarea id="feed-message" class="form-control" placeholder="Tell us what you liked or how we can improve..." required></textarea>
+                        </div>
+                        <button type="submit" class="custom-btn btn-primary btn-submit-full">Submit Feedback</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="custom-container">
+            <p>&copy; 2026 BluePrint Contractors. All Rights Reserved.</p>
+            <p>Email:  blueprintcontractors@gmail.com | Tel: +267 72 850 592</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
